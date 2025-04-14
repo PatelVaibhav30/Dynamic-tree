@@ -1,0 +1,48 @@
+{
+  "santosh": [
+    {
+      "key": "0",
+      "label": "1",
+      "type": "person",
+      "className": "p-person",
+      "expanded": true,
+      "children": [
+        {
+          "key": "0-0",
+          "label": "1.1",
+          "type": "person",
+          "className": "p-person",
+          "expanded": true,
+          "children": []
+        },
+        {
+          "key": "0-1",
+          "label": "1.2",
+          "type": "person",
+          "className": "p-person",
+          "expanded": true,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "vaibhav": [
+    {
+      "key": "0",
+      "label": "class",
+      "type": "person",
+      "className": "p-person",
+      "expanded": true,
+      "children": [
+        {
+          "key": "0-0",
+          "label": "desk",
+          "type": "person",
+          "className": "p-person",
+          "expanded": true,
+          "children": []
+        }
+      ]
+    }
+  ]
+}
