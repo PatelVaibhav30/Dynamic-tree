@@ -1,31 +1,4 @@
 {
-  "santosh": [
-    {
-      "key": "0",
-      "label": "1",
-      "type": "person",
-      "className": "p-person",
-      "expanded": true,
-      "children": [
-        {
-          "key": "0-0",
-          "label": "1.1",
-          "type": "person",
-          "className": "p-person",
-          "expanded": true,
-          "children": []
-        },
-        {
-          "key": "0-1",
-          "label": "1.2",
-          "type": "person",
-          "className": "p-person",
-          "expanded": true,
-          "children": []
-        }
-      ]
-    }
-  ],
   "vaibhav": [
     {
       "key": "0",
@@ -40,9 +13,68 @@
           "type": "person",
           "className": "p-person",
           "expanded": true,
-          "children": []
+          "children": [
+            {
+              "key": "0-0-0",
+              "label": "wood",
+              "type": "person",
+              "className": "p-person",
+              "expanded": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "0-1",
+          "label": "board",
+          "type": "person",
+          "className": "p-person",
+          "expanded": true,
+          "children": [
+            {
+              "key": "0-1-0",
+              "label": "chalk",
+              "type": "person",
+              "className": "p-person",
+              "expanded": true,
+              "children": []
+            },
+            {
+              "key": "0-1-1",
+              "label": "duster",
+              "type": "person",
+              "className": "p-person",
+              "expanded": true,
+              "children": [
+                {
+                  "key": "0-1-1-0",
+                  "label": "wood",
+                  "type": "person",
+                  "className": "p-person",
+                  "expanded": true,
+                  "children": []
+                },
+                {
+                  "key": "0-1-1-1",
+                  "label": "cotton",
+                  "type": "person",
+                  "className": "p-person",
+                  "expanded": true,
+                  "children": []
+                }
+              ]
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "krishna": {
+    "key": "0",
+    "label": "Root",
+    "type": "person",
+    "className": "p-person",
+    "expanded": true,
+    "children": []
+  }
 }
