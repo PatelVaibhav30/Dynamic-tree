@@ -85,6 +85,12 @@ app.get('/tree/:username', (req, res) => {
     });
 });
 
+
+
+app.get('/', (req, res) => {
+    res.json({ message: 'Hello from /api route!' });
+  });
+
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
