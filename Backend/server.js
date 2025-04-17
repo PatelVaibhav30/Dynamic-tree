@@ -2,6 +2,8 @@ const express = require('express');
 const fs = require('fs');
 const cors = require('cors');
 const app = express();
+const serverless = require('serverless-http');
+
 const port = 3001;
 
 app.use(cors());
@@ -83,6 +85,8 @@ app.get('/tree/:username', (req, res) => {
     });
 });
 
-app.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//     console.log(`Server running on http://localhost:${port}`);
+// });
+
+module.exports.handler = serverless(app);

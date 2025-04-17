@@ -168,7 +168,7 @@ const Tree = () => {
                                 ✅ Save
                             </button>
                             <button className="mt-1 text-xs px-2 py-1 bg-blue-200 rounded hover:bg-blue-300" onClick={() => setEditingKey(null)} >
-                            ❌
+                                ❌
                             </button>
 
                         </div>
@@ -242,7 +242,8 @@ const Tree = () => {
                 <Login setData={setData} setLoginState={setLoginState} />
                 :
                 <>
-                    <div className="w-fit" ref={chartRef}>
+                    <div className="w-fit h-fit" ref={chartRef}>
+                        <h1 className='font-semibold text-2xl p-2 flex justify-center'>My Family Tree 🌳</h1>
                         <OrganizationChart
                             value={data}
                             nodeTemplate={nodeTemplate}
