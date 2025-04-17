@@ -14,7 +14,7 @@ const Login = ({ setLoginState, setData }) => {
     const AddDataToJSON = async (username) => {
         const usernameKey = username.trim().toLowerCase();
         try {
-            await fetch('http://localhost:3001/add-user-tree', {
+            await fetch('https://dynamic-tree.onrender.com/add-user-tree', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -24,7 +24,7 @@ const Login = ({ setLoginState, setData }) => {
             setLoginState(true);
 
             // Then fetch the user's tree dynamically from your backend
-            const res = await fetch(`http://localhost:3001/tree/${usernameKey}`);
+            const res = await fetch(`https://dynamic-tree.onrender.com/tree/${usernameKey}`);
             const responseData = await res.json();
 
             if (responseData) {

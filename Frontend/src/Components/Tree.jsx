@@ -32,7 +32,7 @@ const Tree = () => {
 
         }
 
-        fetch(`http://localhost:3001/tree/${username}`)
+        fetch(`https://dynamic-tree.onrender.com/tree/${username}`)
             .then((res) => {
                 if (!res.ok) {
                     throw new Error('Network response was not ok');
@@ -212,7 +212,7 @@ const Tree = () => {
         if (!usernameKey) return;
 
         try {
-            await fetch('http://localhost:3001/update-user-tree', {
+            await fetch('https://dynamic-tree.onrender.com/update-user-tree', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
