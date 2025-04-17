@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <!-- Trunk -->
+  <rect x="90" y="120" width="20" height="50" fill="#8B4513" />
+
+  <!-- Leaves -->
+  <circle cx="100" cy="100" r="40" fill="green" />
+  <circle cx="70" cy="100" r="30" fill="green" />
+  <circle cx="130" cy="100" r="30" fill="green" />
+  <circle cx="100" cy="70" r="30" fill="green" />
+</svg>
